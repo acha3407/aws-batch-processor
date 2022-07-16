@@ -10,7 +10,7 @@ phases:
   build:
     commands:
       - echo start build jar file
-      - gradlew clean bootJar
+      - ./gradlew clean bootJar
       - echo complete build jar file
       - echo Build started on `date`
       - echo Building the Docker image...
