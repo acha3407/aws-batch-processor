@@ -5,6 +5,8 @@ phases:
   pre_build:
     commands:
       - echo start building project 1
+      - echo current working directory
+      - pwd
       - echo docker login
       - docker login -u="${DOCKER_USERNAME}" -p="${DOCKER_PASSWORD}"
       # - echo Logging in to Amazon ECR...
